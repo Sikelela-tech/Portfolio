@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student Portfolio showcasing skills, projects, and background.">
+    <meta name="keywords" content="student, portfolio, web development, data science, projects">
+    <meta name="author" content="Your Name">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- Header: Navigation Bar -->
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <a href="#">Your Name</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Aspiring Data Scientist & Front-End Developer on a Journey of Impact.</h1>
+            <p>Welcome to my portfolio. I’m passionate about Data Analysis and Front-End development.</p>
+            <img src="images/profile.jpg" alt="Your Name" class="hero-image"> <!-- Replace with your photo -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>
+            Hi, I'm Sikelela Sompali, a second-year BSc Data Science student at Sol Plaatje University. I'm passionate about front-end web development and data visualization, with a love for creating clean, modern, and user-friendly digital experiences.
+        </p>
+
+        <p>
+            I enjoy turning complex data into simple, beautiful visuals that tell stories and spark insights. Whether it's building sleek interfaces or analyzing customer segmentation data, I’m driven by curiosity and a desire to make information more accessible.
+        </p>
+
+        <p>
+            My current toolkit includes HTML, CSS, JavaScript, Python, and C++, and I’m constantly expanding my skills through personal projects, academic work, and tutoring sessions — including helping first-year students understand C++ arrays and strings.
+        </p>
+
+        <p>
+            I’m open to opportunities like internships, freelance work, or collaborations, especially in roles that let me grow as a developer and data storyteller. When I'm not coding or studying, I love spending time discovering music, or refining my portfolio to better reflect my journey.
+        </p>
+    </div>
+</section>
+
+
+    <!-- Skills Section -->
+<section id="skills">
+    <div class="container">
+        <h2>Skills</h2>
+
+        <!-- 1. Skill Categories with Progress Bars -->
+        <div class="skills-categories">
+            <div class="skill-item">
+                <h3>Front-End Development <span class="level-label">Intermediate</span></h3>
+                <div class="progress-bar"><div class="progress" style="width: 65%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3>Data Analysis <span class="level-label">Intermediate</span></h3>
+                <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <h3>Data Visualization <span class="level-label">Intermediate</span></h3>
+                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+            </div>
+        </div>
+
+        <!-- 2. Tech Tools Icons -->
+        <h3>Tools & Technologies</h3>
+        <div class="skills-grid">
+            <div class="skill-icon"><i class="devicon-html5-plain colored"></i><p>HTML</p></div>
+            <div class="skill-icon"><i class="devicon-css3-plain colored"></i><p>CSS</p></div>
+            <div class="skill-icon"><i class="devicon-javascript-plain colored"></i><p>JavaScript</p></div>
+            <div class="skill-icon"><i class="devicon-python-plain colored"></i><p>Python</p></div>
+            <div class="skill-icon"><i class="devicon-cplusplus-plain colored"></i><p>C++</p></div>
+            <div class="skill-icon"><i class="devicon-mysql-plain colored"></i><p>SQL</p></div>
+            <div class="skill-icon"><i class="devicon-powerbi-plain colored"></i><p>Power BI</p></div>
+        </div>
+
+        <!-- 3. Soft/Other Skills Badges -->
+        <h3>Other Skills</h3>
+        <div class="skills-badges">
+            <span class="badge">Problem Solving</span>
+            <span class="badge">Team Collaboration</span>
+            <span class="badge">Tutoring & Mentoring</span>
+            <span class="badge">Communication</span>
+            <span class="badge">Curiosity</span>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <img src="images/image.png" alt="Project 1">
+                    <h3>Project Title</h3>
+                    <p>Short description of the project and your role.</p>
+                    <a href="https://github.com/Sikelela-tech/customer-segmentation-analysis/blob/main/Analysis%20Project.ipynb" target="_blank">View on GitHub</a>
+                </div>
+                <!-- Repeat for other projects -->
+            </div>
+        </div>
+    </section>
+
+   <!-- Contact Section -->
+<section id="contact">
+    <div class="container contact-container">
+        <h2>Get in Touch</h2>
+        <p>If you have an opportunity, question, or just want to say hello — I’d love to hear from you!</p>
+    
+        <form
+          action="https://formspree.io/f/xvgapgaz"
+          method="POST"
+          class="contact-form"
+        >
+          <div class="form-group">
+            <label for="email">Your email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="message">Your message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+    
+          <button type="submit">Send</button>
+        </form>
+
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> sikelelasompali5@gmail.com </p>
+            <p><i class="fas fa-map-marker-alt"></i> Kimberley, South Africa</p>
+            <p><i class="fas fa-envelope"></i> You’ll hear back from me soon!</p>
+        </div>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sikelela-sompali-76616b26b/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Sikelela-tech" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        
+    </div>
+</section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Dark Mode Toggle -->
+    <script src="script.js"></script> <!-- Link to your JavaScript file for interactivity -->
+</body>
+</html>
